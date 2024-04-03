@@ -1,10 +1,36 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:mabuhay/resource/styles/colors.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_bold.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_normal.dart';
+import 'package:mabuhay/screen/home_screen.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({super.key});
+class SplashScreen extends StatefulWidget {
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  //const SplashScreen({super.key});
+
+  void initState() {
+    super.initState();
+    startTimer();
+  }
+
+  startTimer() async {
+    var duration = Duration(milliseconds: 1500);
+    return Timer(duration, route);
+  }
+
+  route() {
+    Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => HomePageScreen(),
+        ));
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,9 +48,9 @@ class SplashScreen extends StatelessWidget {
             const Spacer(),
             Center(
               child: Text(
-                "Made with love from Aotearoa.\nCreated by Regionthree Technologies\nversion 1.0.0",
+                "Made with love from Aotearoa.\nCreated by regionthreeditigal.com\nversion 1.0.0",
                 textAlign: TextAlign.center,
-                style: EdmondsansNormal.white.h6,
+                style: EdmondsansNormal.white.h5,
               ),
             ),
             const SizedBox(height: 20)
