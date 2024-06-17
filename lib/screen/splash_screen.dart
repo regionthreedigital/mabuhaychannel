@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:mabuhay/resource/styles/colors.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_bold.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_normal.dart';
-import 'package:mabuhay/screen/home_screen.dart';
+import 'package:mabuhay/screen/home/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
@@ -14,13 +16,14 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   //const SplashScreen({super.key});
 
+  @override
   void initState() {
     super.initState();
     startTimer();
   }
 
   startTimer() async {
-    var duration = Duration(milliseconds: 1500);
+    var duration = const Duration(milliseconds: 1500);
     return Timer(duration, route);
   }
 
@@ -28,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => HomePageScreen(),
+          builder: (context) => const HomePageScreen(),
         ));
   }
 
