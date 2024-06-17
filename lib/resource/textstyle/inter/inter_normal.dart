@@ -1,6 +1,6 @@
-import 'edmondsans_collection_bold.dart';
+import 'inter_collection_normal.dart';
 
-class EdmondsansBold {
+class InterNormal {
   static FoundationGreenD1 foundationGreenD1 = const FoundationGreenD1();
   static FoundationGreenD2 foundationGreenD2 = const FoundationGreenD2();
   static White white = const White();

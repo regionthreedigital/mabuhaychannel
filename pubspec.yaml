@@ -14,6 +14,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.10+1
+  page_route_animator: ^1.0.4
 
 dev_dependencies:
   flutter_test:
@@ -34,3 +35,6 @@ flutter:
     - family: SFProDisplay
       fonts:
         - asset: fonts/SFProDisplayRegular.ttf
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter.ttf

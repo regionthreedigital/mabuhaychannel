@@ -139,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+  page_route_animator:
+    dependency: "direct main"
+    description:
+      name: page_route_animator
+      sha256: "7ec6acadcee42454f33b69d3d20d24396434b7436ad043c132e5c32c1c537c92"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   path:
     dependency: transitive
     description:

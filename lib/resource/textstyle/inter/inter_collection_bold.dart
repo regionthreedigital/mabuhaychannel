@@ -5,7 +5,7 @@ import '../../styles/colors.dart';
 // ? FONT HEADING SIZE
 const double headlinelarge = 48;
 const double headline1 = 28;
-const double headline2 = 24;
+const double headline2 = 23;
 const double headline3 = 20;
 const double headline4 = 18;
 const double headline5 = 14;
@@ -16,7 +16,7 @@ const double headline7 = 10;
 
 TextStyle fontStyle({Color? color, FontWeight? fontWeight, double? fontSize, double? letterSpacing, FontStyle? fontStyle, Paint? foreground, double? height, String? fontFamily}) {
   return TextStyle(
-    fontFamily: 'SFProDisplay',
+    fontFamily: 'Inter',
     foreground: foreground,
     color: color,
     fontSize: fontSize,

@@ -59,6 +59,70 @@ class FoundationGreenD1 {
       );
 }
 
+class FoundationGreenD2 {
+  const FoundationGreenD2();
+  TextStyle get large => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headlinelarge,
+      );
+  TextStyle get h1 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline1,
+      );
+  TextStyle get h2 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline2,
+      );
+  TextStyle get h3 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline3,
+      );
+  TextStyle get h4 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline4,
+      );
+  TextStyle get h5 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline5,
+      );
+  TextStyle get h6 => fontStyle(
+        color: foundationGreenD2,
+        fontSize: headline6,
+      );
+}
+
+class Gray04 {
+  const Gray04();
+  TextStyle get large => fontStyle(
+        color: gray04,
+        fontSize: headlinelarge,
+      );
+  TextStyle get h1 => fontStyle(
+        color: gray04,
+        fontSize: headline1,
+      );
+  TextStyle get h2 => fontStyle(
+        color: gray04,
+        fontSize: headline2,
+      );
+  TextStyle get h3 => fontStyle(
+        color: gray04,
+        fontSize: headline3,
+      );
+  TextStyle get h4 => fontStyle(
+        color: gray04,
+        fontSize: headline4,
+      );
+  TextStyle get h5 => fontStyle(
+        color: gray04,
+        fontSize: headline5,
+      );
+  TextStyle get h6 => fontStyle(
+        color: gray04,
+        fontSize: headline6,
+      );
+}
+
 class White {
   const White();
   TextStyle get large => fontStyle(
