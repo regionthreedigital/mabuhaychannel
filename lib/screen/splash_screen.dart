@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:mabuhay/resource/styles/colors.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_bold.dart';
 import 'package:mabuhay/resource/textstyle/edmondsans/edmondsans_normal.dart';
-import 'package:mabuhay/screen/home/home_screen.dart';
+
+import 'account/login.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -31,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomePageScreen(),
+          builder: (context) => const Login(),
         ));
   }
 
